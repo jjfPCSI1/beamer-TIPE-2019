@@ -1,0 +1,71 @@
+% Le titre de la partie
+\section{Le point de vue de la Relativité Générale}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Première diapo
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}
+\frametitle{Relativité Générale}
+\framesubtitle{Et zut...}
+
+\begin{itemize}
+	\item	<1->	Il n'y a plus guère de temps pour parler
+	\item	<2->	Alors zou, on balance le résultat des calculs
+
+$$
+    \onslide<3->
+    \underbrace{
+    \onslide<2->    
+    \frac{\dd^2 u}{\dd \theta^2} + u 
+        = 
+        \frac{G M m^2}{L^2} 
+    \onslide<3->
+    }_{\text{Partie classique}}
+    \onslide<2->
+    + 
+    \onslide<3->
+    \underbrace{
+    \onslide<2->    
+    \frac{3\, G M}{c^2}\, u^2
+    \onslide<3->
+    }_{\text{RG}}
+    \onslide<2->
+$$
+
+	\item	<4->	Après avoir bien bossé, on obtient finalement
+\onslide<4->
+$$
+	\boxed{
+		\delta = 6\, \pi \, \frac{G M}{a\, c^2\pa{1-e^2}}
+			}
+$$
+
+\end{itemize}
+
+\end{frame}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deuxième diapo: le code informatique impose un 
+% environnement "fragile" pour la frame
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}[fragile]
+\frametitle{Relativité Générale}
+\framesubtitle{Le code informatique}
+
+\begin{code}
+\begin{minted}[linenos]{python}
+
+import scipy as sp
+import scipy.optimize
+
+def ma_fonction(x):
+    return []
+
+# À vous de remplir les choses adéquates...
+
+\end{minted}
+\end{code}
+\end{frame}
